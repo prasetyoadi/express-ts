@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "target": "ES2021",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "paths": {
+      "@components/*": ["src/infrastructure/components/*"],
+      "@utils/*": ["src/infrastructure/utils/*"],
+      "@domain/*": ["src/domain/*"],
+      "@faker/*": ["src/faker/*"],
+    },
+  }
+}
